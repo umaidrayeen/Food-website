@@ -19,9 +19,9 @@ html,body{
     width: 100%;
     display: flex;
     box-shadow: 1px 1px 10px rgb(0, 0, 0);
-    /* background-color: rgb(45, 45, 45);
+    background-color: rgb(0, 0, 0);
     position: fixed;
-    z-index: 1; */
+    z-index: 1;
 }
 .logo-d{
     padding: 5px;
@@ -81,15 +81,16 @@ html,body{
     align-items: center;
 }
 .h-img{
-    width: 340px;
+    width: 90%;
+    margin-left: 15px;
     margin-bottom: 60px;
-    margin-top: 70px;
+    margin-top: 50px;
     filter: drop-shadow(1px 1px 2px gray);
 }
 .home-h4{
     font-size: 28px;
     color: orangered;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 .home-h1{
     font-size: 48px;
@@ -101,12 +102,12 @@ html,body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 7px;
+    margin-top: px;
 }
 .home-p{
     color: white;
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .home-btn{
     font-size: 9px;
@@ -239,7 +240,7 @@ html,body{
 .m-food-h{
     color: orangered;
     font-size: 35px;
-    margin-top: 40px;
+    margin-top: 90px;
     font-style: italic;
 }
 .m-food-h2{
@@ -330,6 +331,7 @@ i{
     width: 300px;
 }
 .about-h{
+    margin-top: 50px;
     font-size: 35px;
     color: orangered;
     font-style: italic;
@@ -354,6 +356,7 @@ i{
     font-size: 30px;
     color: white;
     font-style: italic;
+    margin-top: 50px;
     margin-bottom: 70px;
     text-align: center;
 }
@@ -401,6 +404,10 @@ i{
     font-size: 30px;
     font-style: italic;
     text-align: center;
+    margin-top: 50px;
+}
+.order-image{
+    width: 98%;
 }
 .order-i{
     width: 300px;
@@ -560,11 +567,12 @@ i{
     .fo-img{
         width: 40px;
     }
+
     /* Menu Page */
 
     .m-food-h{
         font-size: 65px;
-        margin-top: 70px;
+        margin-top: 120px;
     }
     .m-food-h2{
         font-size: 55px;
@@ -632,7 +640,7 @@ i{
         font-size: 60px;
         color: orangered;
         margin-bottom: 40px;
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .about-h4{
         color: white;
@@ -652,7 +660,7 @@ i{
 
     .c-h1{
         font-size: 60px;
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .review-card{
         padding: 10px;
@@ -680,7 +688,7 @@ i{
 
     .order-now-h{
         font-size: 60px;
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .order-i{
         width: 550px;
@@ -801,6 +809,7 @@ i{
         margin-left: 60px;
     }
     .h-img{
+        margin-top: 20%;
         margin-bottom: 20px;
         width: 90%;
     }   
@@ -900,7 +909,7 @@ i{
 
     .c-h1{
         font-size: 50px;
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .review-card1{
         width: 20%;
